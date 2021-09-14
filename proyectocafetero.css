@@ -1,0 +1,622 @@
+header, section, footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#header{
+    height: 206px;
+    width: 206px;
+    float: right;
+    font-family: 'Aclonica', sans-serif;
+    color: antiquewhite;
+    padding: 15px;
+    box-sizing: border-box;
+   
+}
+
+#botonera{
+    height: 60px;
+    width: 760px;
+    display: inline-block;   
+    list-style-type: none; 
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+#botonera ul li a {
+    display: inline-block;
+    width: 126px;
+    height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+    white-space: pre;
+    border-bottom: 1px none;
+    line-height: 80px;
+    background-color: darkgoldenrod;
+    padding-bottom: 8px;
+    position: sticky;
+    top: 0px;
+    
+}
+#botonera ul li a:hover {
+    background-color: #4d3300 ;
+
+}
+#botonhamburguesa{
+    width: 20px;
+    height: 20px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 2px;
+    display: none;
+
+}
+#botonhamburguesa a {
+        display: block;
+        color:#4d3300;
+        text-decoration: none;
+        text-align: center;
+        font-size: 19px;
+
+}
+#PROYECTOCAFETERO{
+    width: 200px;
+    height: 180px;
+    background-color:  #1f1f14;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+#PROYECTOCAFETERO h1{
+    color: darkgoldenrod;
+    font-style: italic ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#MAESTROCAFETERO{
+    height: 500px;
+    background-color: #2e2e1f;
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    box-sizing: border-box;
+
+}
+#CLIENTE{
+    height: 600px;
+    background-color: #5b5b3e ;
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+#cuestionario ul li{
+    float: right;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.destMaest{
+font-size: 17px;
+}
+#ARABIAN{
+    height: 500px;
+    background-color: #2e2e1f;
+    background-image: url(img/arabe.jpg);
+    text-align: right;
+    font-weight: bolder;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#BRAZILIAN{
+    height: 500px;
+    background-color: #5b5b3e ;
+    background-image: url(img/8.jpg);
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+
+/* class para los modals */
+
+.modal-title, .col-form-label {
+    color: black
+}
+
+
+#COLOMBIAN{
+    width: 960px;
+    height: 500px;
+    background-color: #2e2e1f;
+    background-size: cover;
+    padding-right: 0px;
+    box-sizing: border-box;
+
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+#SELECCION{
+    width: 60%;
+    height: 650px;
+    background-color: #5b5b3e;
+    background-image: url(img/15.jpg);
+    background-size: 90%;
+    padding-right: 10px;
+    box-sizing: content-box;
+
+}
+.txt1, #txt2, #txt3{
+    text-align: bottom;
+    
+}
+.imgserv1, #imgserv2, #imgserv3 a img{
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+.ajusteim{
+    width: 200px;
+    height: 200px;
+    
+}
+.txt{   position: absolute;
+        text-align: left;
+        font-size: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+        object-position: center;
+        margin-left: 0px; 
+        
+    }
+
+h2{
+    margin: 0mm;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: #1f1f14;
+}
+.imgmarca{
+    width: 200px;
+}
+.pri{
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    color: white;  
+    padding: 5px;
+    font-weight: 100;
+}
+body{
+    font-size: 20px;
+    font-style: oblique;
+    text-align: justify;
+    color: white;
+}
+#footer{
+    height: 100px;
+    width: 960px;
+    background-color: #4d3300;
+    white-space: nowrap;
+    text-indent: 5px;
+    
+}
+.foot, .foot2 {
+    padding: 0px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    text-underline-position:above;
+}
+#productos{
+  height: 800px;
+  width: 960px;
+  padding: 0px;
+  background-size: cover;
+}
+.dropdown{
+    width: 936px;
+}
+#dropdownMenuButton1{
+    background-color: darkgoldenrod;
+    color: #5b5b3e;
+}
+#dropdownMenuButton1:hover {
+    color: #2e2e1f;
+}
+#modulo{
+    height: 400px;
+    width: 960px;
+}
+#prod1{ 
+    background-color: #4d3300;
+}
+#prod2{
+    background-color: #5b5b3e;
+}
+#prod3{
+    background-color: #4d3300;
+}
+#modulo2{
+    height: 400px;
+    width: 960px;
+}
+#prod4{
+    background-color: #5b5b3e;
+}
+#prod5{
+    background-color: #4d3300;
+}
+#prod6{
+    background-color: #5b5b3e;
+}
+.card-body{
+   color: #331a00;
+}
+.card-text{
+    text-align: center;
+    text-size-adjust: 50%;
+    font-size: 25px;
+    color: #331a00;
+    background-color: #996600 ;
+}
+.col-xl-4 , .col-sm-2 , .col-md-4 , .col-8 {
+    box-sizing: border-box;
+    padding-top: 50px;
+
+}
+.dropdown{
+    object-position: top;
+    box-sizing: content-box;
+    float:right;
+    background-color: #1f1f14;
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+    
+    header, section, footer{
+        width: 580px;
+        margin-top: 0px;
+    }
+    
+    #header{
+        height: 86px;
+        width: 86px;
+        float: right;
+        font-family: 'Aclonica', sans-serif;
+        padding: 5px;
+        box-sizing: border-box;
+       
+    }
+    #botonera{
+        height: 40px;
+        width: 420px;
+        display:table;
+        list-style-type: none;
+    }
+   
+    #botonera ul li a {
+        width: 180x;
+        height: 25px;
+        font-weight:normal;
+        line-height: 25px;
+        padding-bottom: 2px;
+        
+    }
+    #botonhamburguesa{
+        width: 20px;
+        height: 20px;
+        background-color: darkgoldenrod;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0px;
+        display: inline-block;
+    
+    }
+    #botonhamburguesa nav a {
+            display: inline;
+            color:#4d3300;
+            text-decoration: none;
+            text-align: center;
+            font-size: 19px;
+            padding: 0px;
+            margin: 50%;
+            float:left
+    
+    }
+    #PROYECTOCAFETERO{
+        width: 160px;
+        height: 160px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 50px;
+        text-align: center;
+        
+    }
+    #PROYECTOCAFETERO h1{
+        font-size: 25px;
+    }
+    #MAESTROCAFETERO{
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 15px ;
+        text-align: left;
+    }
+    #ARABIAN{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #COLOMBIAN{
+        text-align: left;
+        width: 100%;
+    }
+    #SELECCION{
+        height: 300px;
+        width: 80%;
+        background-color: #5b5b3e;
+        background-image: url(img/15.jpg);
+        background-size: cover;
+    }
+
+
+    #imgserv1, #imgserv2, #imgserv3 img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        float:left;
+    }
+    h2{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+}
+/* fin media 600 a 1023 */
+
+
+@media all and (max-width: 599px){
+    header, section, footer{
+        width: 95%;  
+        margin: 0px;
+    }
+    header{
+        margin-top: 7px;
+        z-index: 100;
+    }
+    #header{
+        height: 90px;
+        width: 90px;
+        padding: 5px; 
+    }
+
+#botonera{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center; 
+    margin-top: 7px;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    box-sizing: border-box;
+}
+#botonera ul li a {
+    display: -ms-inline-grid;
+    width: 90px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 0px none;
+    line-height: 30px;
+    padding-bottom: 0px;
+
+}
+#botonhamburguesa {
+    display: block;
+    float:right;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+}
+#botonhamburguesa nav a {
+    display: inline;
+    color:#4d3300;
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    padding: 0px;
+    float: right;
+    margin: 50%;
+
+}
+    #PROYECTOCAFETERO{
+        width: 120px;
+        height: 120px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing:border-box;
+        margin-right: 20px;
+    }
+    #PROYECTOCAFETERO h1{
+        color: darkgoldenrod;
+        font-style: italic ;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    #MAESTROCAFETERO{
+        height: 1100px;
+        padding-bottom: 0px;
+        padding-top: 160px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: justify;
+        font-size: 20px;
+        font-weight:bold;
+        line-height: 25px;
+        margin-top: 0px;
+       
+    
+    }
+    #CLIENTE{
+        height: 600px;
+        background-color: #5b5b3e ;
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        padding-bottom: 5px;
+        padding-top: 2px;
+        padding-left: 5px;
+        text-align: justify;
+        font-size: 20px;
+        font-weight: normal;
+        box-sizing: border-box;
+    }
+    .destMaest{
+    font-size: 17px;
+    }
+    #ARABIAN{
+        text-align: center;
+    }
+    #BRAZILIAN{
+        text-align: center;
+    }
+    #productos{
+        height: 900px;
+        width: 430px;
+    }
+    .dropdown{
+        width: 405px;
+    }
+    h2{
+        width: 400px;
+    }
+    #SELECCION{
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #COLOMBIAN{
+        width: 53%px;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    .carousel-item{
+        width: 53%;
+        height: 100%;
+    }
+    #productos{
+        height: 600px;
+        width: 500px;
+        margin: 0px;
+      }
+      .container-fluid{
+          width: 500px;
+          content-visibility: auto;
+      }
+#imgserv1, #imgserv2, #imgserv3 {
+        display: inline-table;
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        float:left;
+    } 
+    #modulo{
+        height: 1200px;
+        width: 430px;
+    }
+    #modulo2{
+        height: 800px;
+        width: 430px;
+    }
+    .ajusteim{
+        width: 50px;
+        height: 50px;
+        
+    }
+    h2{
+        line-height: 40px;
+        text-align: center;
+        padding-top: 40px;
+    }
+   
+    body{
+        text-align: center;
+    }
+    .foot, .foot2 {
+        padding: 0px;
+        margin-top: 45px;
+        box-sizing: border-box;
+        text-align: center;
+        background-size: cover;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: italic;
+        text-underline-position:above;
+    }
+
+    #footer{
+        height: 100px;
+        font-size: 10px;
+        font-weight: normal;
+        font-style: italic;
+        z-index: 100;
+    }
+}
